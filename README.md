@@ -1,2 +1,2 @@
-# uni-syscirc-lab1
-Lab 1 for Systems and Circuits (GITT year 1)
+# System and Circuits (GITT year 1)
+Lab 1 for Systems and Circuits

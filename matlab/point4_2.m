@@ -16,7 +16,7 @@ ylabel('x[n]'); % Vertical axis
 % to compute the lowest integer of the argument
 Ny = floor(length(x)/3);
 for k=1:1:Ny %For loop. y(k) = x(k*3) is repeated for k=1, 2, ..., Ny
-y(k) = x(k*3);
+    y(k) = x(k*3);
 end
 % Vector of time points for y[n]
 ny = 1:Ny

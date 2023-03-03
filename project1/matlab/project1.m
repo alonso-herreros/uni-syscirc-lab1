@@ -31,4 +31,4 @@ plot(n, x); % Plot looks better visually
 energy = sum(x.^2) % Calculate the energy of the mixed song
 power = mean(x.^2) % Calculate the power of the mixed song. It's equal to energy/length(x)
 
-audiowrite("audio\project1.wav", x, 11025); % Write the mixed song to a file
+audiowrite("..\audio\project1.wav", x, 11025); % Write the mixed song to a file

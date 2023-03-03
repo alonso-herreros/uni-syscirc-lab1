@@ -1,6 +1,6 @@
 % Project 1: mixing music with fading
-TheSting = audioread("audio\thesting.wav");
-StarWars = audioread("audio\starwars.wav");
+TheSting = audioread("..\audio\thesting.wav");
+StarWars = audioread("..\audio\starwars.wav");
 
 % Cut both to the same length
 minLength = min(length(TheSting),length(StarWars));

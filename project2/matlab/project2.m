@@ -1,6 +1,6 @@
 % Project 2: Add background music
-bladerunner = audioread("audio\bladerunner.wav");
-thirdman = audioread("audio\thirdman.wav");
+bladerunner = audioread("..\audio\bladerunner.wav");
+thirdman = audioread("..\audio\thirdman.wav");
 
 tm = repmat(thirdman, 3, 1); % Repeat thirdman 3 times
 
